@@ -4,7 +4,7 @@ public class Example18ReverseStr {
 
     public static void main(String[] args) {
 
-        String str = "Nandeshwar";
+        String str = "RAm";
 
         int i = 0;
         int j = str.length() - 1;
@@ -16,8 +16,8 @@ public class Example18ReverseStr {
             str2[i] = str2[j];
             str2[j] = tmp;
             i++;
-            j--;
 
+            j--;
         }
         System.out.println(str2);
     }
